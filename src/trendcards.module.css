@@ -1,0 +1,15 @@
+.trendcards{
+    height: 40vh;
+    width: 90vw;
+    display: flex;
+    flex-wrap:wrap ;
+    gap: 1.5rem;
+    position: relative;
+    left: -2.5vw;
+    top: -1.3rem;
+}
+@media (max-width:600px) {
+    .trendcards{
+        gap: 0.65rem;
+    }
+}

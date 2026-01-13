@@ -1,0 +1,198 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('c:\Users\kumar\Downloads\back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+.menuContainer {
+  position: relative;
+  z-index: 2000;
+}
+
+.hamburgerBtn {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 50;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.menuOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  z-index: 40;
+}
+
+.sideMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 16rem;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.2);
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 7px rgb(48, 48, 48);
+}
+
+.sideMenuOpen {
+  transform: translateX(0);
+}
+
+.menuHeader {
+  padding: 1rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.menuHeader h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.menuLinks {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.menuLinks a {
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.2s;
+}
+
+.menuLinks a:hover {
+  background-color: #f3f3f3;
+}
+
+.login2{
+    height: 70%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    border: 1px solid rgb(133, 132, 132);
+    backdrop-filter: blur(12px);
+    border-radius: 2vw; 
+    justify-content: center;
+    box-shadow: 0 4px 7px rgb(71, 71, 71);
+}
+.login2a{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 10vw;
+    color: rgb(6, 6, 239);
+}
+.login2a h2{
+    cursor: pointer;
+}
+.signup{
+    display: flex;
+    gap: 0.5vw;
+}
+.signup span:nth-child(2){
+    cursor: pointer;
+    color: white;
+}
+.signup span:nth-child(2):hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+.loginAcc{
+    display: flex;
+    gap: 0.5vw;
+}
+.loginAcc span:nth-child(2){
+    cursor: pointer;
+    color: white;
+}
+.loginAcc span:nth-child(2):hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+.login2a hr{
+    height: 1vh;
+    border: none;
+    background-color: blue;
+    border-radius: 5rem;
+}
+.login2b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 2vh;
+}
+.login2b input{
+    width: 50%;
+    height: 5vh;
+    border-radius: 1rem;
+    border: 1px solid gray;
+}
+.login2b .forgot{
+    display: flex;
+    gap: 0.5vw;
+}
+.forgot span:nth-child(2){
+    cursor: pointer;
+    color: white;
+}
+.forgot span:nth-child(2):hover{
+    text-decoration: underline;
+    color: blue;
+}
+.login2b button{
+    width: 20%;
+    background-color:blue;
+    color: white;
+    font-weight: bold;
+}
+@media (max-width:600px){
+     .login{
+        gap: 15vh;
+    }
+    .login2{
+        width: 80%;
+    }
+    .hamburgerBtn{
+        width: 12%;
+        height: 9%;
+        font-size: 1.3rem;
+    }
+
+    .login2a input{
+        width: 80%;
+    }
+    .login2b input{
+        width: 80%;
+    }
+    .forgot span{
+    font-size: small;
+}
+.login2b button{
+    width: 40%;
+}
+
+
+}

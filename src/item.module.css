@@ -1,0 +1,104 @@
+.contain {
+    height: auto;
+    width: 100vw;
+    background-color: rgb(243, 243, 194);
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+    width: 90vw;
+    height: 100vh;
+    background-color: rgb(235, 233, 233);
+    gap: 5vw;
+    padding-top: 5vh;
+}
+
+.item1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    padding-left: 1vw;
+    gap: 1vh;
+}
+
+.item1 img {
+    width: 100%;
+    height: 70%;
+}
+
+.item1a {
+    width: 60%;
+    height: 10%;
+    display: flex;
+    gap: 0.5vw;
+}
+
+.item1a button {
+    width: 45%;
+    height: 80%;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.item1a button:nth-child(1) {
+    background-color: rgb(250, 33, 30);
+}
+
+.item2 {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.item2 h2 {
+    color: brown;
+}
+
+.item2 h3 {
+    color: rgb(194, 165, 4);
+}
+
+.item2 p:nth-child(6) {
+    font-size: larger;
+    color: blue;
+    font-weight: bold;
+}
+
+@media (max-width:600px) {
+    .item {
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+    }
+
+    .item1 {
+        width: 70%;
+        height: 35%;
+    }
+
+    .item1 img {
+        height: 100%;
+    }
+
+    .item2 {
+        width: 95%;
+    }
+
+    .item2 h2 {
+        font-size: large;
+    }
+
+    .item2 p {
+        font-size: small;
+    }
+
+    .item2 button {
+        width: 100%;
+        height: 100%;
+    }
+}

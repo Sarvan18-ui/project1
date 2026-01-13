@@ -1,0 +1,91 @@
+.cart {
+  background-color: rgb(244, 236, 229);
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.cart h2 {
+  color: rgb(42, 42, 245);
+}
+
+.cart1 {
+  width: 100%;
+  display: flex;
+  background-color: antiquewhite;
+}
+
+.cart1a {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1vw;
+  gap: 1vh;
+}
+
+.cart1a img {
+  width: 90%;
+
+}
+
+.cart1b {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+
+}
+
+.cart1b :nth-child(2) {
+  font-size: 1.5vw;
+  font-weight: 400;
+  color: rgb(131, 90, 90);
+}
+
+.cart1b :nth-child(1) {
+  font-size: 1.7vw;
+  font-weight: bold;
+  color: rgb(251, 4, 4);
+}
+
+.cart1b p {
+  color: blue;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.cart1 button {
+  width: 20vw;
+  color: white;
+  background-color: green;
+  border-radius: 4rem;
+  font-size: 2vw;
+  box-shadow: 0 4px 7px rgb(119, 118, 118);
+}
+
+@media (max-width:600px) {
+  .cart {
+    gap: 1rem;
+  }
+
+  .cart1a img {
+    height: 80%;
+  }
+
+  .cart1b :nth-child(1) {
+    font-size: medium;
+  }
+
+  .cart1b :nth-child(2) {
+    font-size: xx-small;
+  }
+
+  cart1b p {
+    font-size: 2.5vw;
+  }
+
+}
