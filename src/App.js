@@ -57,7 +57,7 @@ function App() {
 
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<Main handleAddToCart={handleAddToCart} add={add} Value={Value} />} />
           <Route path="/cart" element={<Cart cart={cart} />} />
