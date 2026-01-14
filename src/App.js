@@ -27,7 +27,7 @@ import Item from './item.js';
 import { useState } from "react";
 
 import {
-  BrowserRouter as Router,
+  
   Route,
   Routes
 } from "react-router-dom";
@@ -57,14 +57,14 @@ function App() {
 
   return (
     <>
-      <Router basename={process.env.PUBLIC_URL}>
+      
         <Routes>
           <Route path="/" element={<Main handleAddToCart={handleAddToCart} add={add} Value={Value} />} />
           <Route path="/cart" element={<Cart cart={cart} />} />
           <Route path="/login" element={<Login />} />
           <Route path="/item/:id" element={<Item handleitem={handleitem} />} />
         </Routes>
-      </Router>
+      
 
 
     </>
