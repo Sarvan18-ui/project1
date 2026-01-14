@@ -49,9 +49,9 @@ export default function Login() {
           <h2>Menu</h2>
         </div>
         <nav className={styles.menuLinks}>
-          <a href="/">Home</a>
+          <Link to="/">Home</Link>
           <Link to="/">Contact Us</Link>
-          <a href="/">Settings</a>
+          <Link to="/">Settings</Link>
         </nav>
       </div>
     </div>

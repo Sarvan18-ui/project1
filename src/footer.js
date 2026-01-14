@@ -13,6 +13,7 @@ export default function Footer() {
               Your one-stop online shopping destination
             </p>
           </div>
+
           <div className={styles.columns}>
 
             <div className={styles.column}>
@@ -43,7 +44,11 @@ export default function Footer() {
         </div>
 
         <div className={styles.bottom}>
-          <p>© 2026 ShopEase. All rights reserved.</p>
+          
+            <p>Developed by <span>Sarvan Jha</span></p>
+            <p>Mobile: 9832617269</p>
+            <p>Email: kumarsarvanjha2005@gmail.com</p>
+         
         </div>
 
       </div>

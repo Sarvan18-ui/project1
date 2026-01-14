@@ -58,8 +58,8 @@ export default function Main({ handleAddToCart, Value, add }) {
             </div>
             <nav className={styles.menuLinks}>
               <Link to="/login">Login</Link>
-              <a href="/">Settings</a>
-              <a href="/">Other Options</a>
+              <Link to="/">Settings</Link>
+              <Link to="/">Other Options</Link>
             </nav>
           </div>
         </div>
@@ -68,7 +68,7 @@ export default function Main({ handleAddToCart, Value, add }) {
 
           <div className={styles.logo1}>
             <img src={logo} alt='logo'></img>
-            <h2>Logo</h2>
+            <h2>Smax</h2>
           </div>
           <div className={styles.logo2}>
             <input type='text' placeholder='Search you want...' value={query}
