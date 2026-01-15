@@ -1,7 +1,7 @@
 # Getting Started with Create React App
 # Sarvan Pro
 
-[🌐 Open Website](https://github.com/Sarvan18-ui/project1/)
+[🌐 Open Website](https://sarvan18-ui.github.io/project1/)
 
 This is my first React project uploaded to GitHub.
 
